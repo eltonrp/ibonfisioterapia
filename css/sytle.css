@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+html {
+    height: 100%;
+}
+
+body h1, h2, h3, h4, h5, .rodape {
+    color: #064B76;
+}
+
+main {
+    padding-top: 88px;
+}
+
+#menu {
+    opacity: .98;
+}
+
+#brand {
+    font-family: 'Open Sans', sans-serif;
+    color: #064B76;
+    font-weight: 500;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+#brand:hover {
+    opacity: .7;
+}
+
+#item-menu {
+    gap: 30px;
+}
+
+#item-menu a {
+    color: #064B76;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+    letter-spacing: 3px;
+}
+
+#brand {
+    color: #fff;
+}
+
+#item-menu a:hover {
+    opacity: .7;
+}
+
+.nome {
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .6);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-caption h4 {
+    color: #0098DA;
+}
+
+.carousel-caption p {
+    padding-bottom: .5em;
+}
+
+/* Seção de especialidades */
+.especialidades {
+    text-align: center;
+    background-color: #2e2e2e;
+    border-radius: 25px;
+}
+
+.especialidades i, .especialidades h4 {
+    transition: .5s;
+} 
+
+.especialidades i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0098DA;
+}
+
+.especialidades h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0098DA;
+}
+
+.especialidades p {
+    color: #F5F5F5;
+}
+
+.especialidades:hover > i, .especialidades:hover > h4 {
+    color: #064B76;
+}
+
+/* Botões rede social */
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media i {
+    color: #064B76;
+    font-size: 32px;
+    margin: 10px;
+    transition: .3s;
+}
+
+.social-media i:hover {
+    color: #2F90B0;
+}
+
+.social-media-menu a {
+    text-decoration: none;
+}
+
+.social-media-menu i {
+    color: #064B76;
+    font-size: 32px;
+    margin: 10px;
+    transition: .3s;
+}
+
+.social-media-menu i:hover {
+    color: #2F90B0;
+}
+
+#botao1, #botao2, #botao3 {
+    background: #064B76;
+    border: none;
+}
+
+#botao1:hover, #botao2:hover, #botao3:hover {
+    background: #2F90B0;
+}
+
+.link-contato {
+    text-decoration: none;
+    color: #212529;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.link-contato:hover, .link-contato:active, .link-contato:visited {
+    color: #064B76;
+}
+
+footer {
+    background-color: #DADADA;
+}
